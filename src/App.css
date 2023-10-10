@@ -54,3 +54,49 @@ button{
   flex: 1;
 
 }
+
+/* Media queries for responsiveness */
+
+/* Media queries for responsiveness */
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .container {
+    width: 60%;
+  }
+  .container button{
+    width: 20%;
+  }
+
+  .todoForm {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .singleTodo {
+    width: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .singleTodo button {
+    flex: 0.4; /* Adjusted button flex value */
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+    width: 70%; /* Full-width button */
+  }
+
+  input {
+    flex: 0.6; /* Adjusted input flex value */
+    width: 100%;
+  }
+
+  .todoForm button {
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
